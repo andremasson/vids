@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Vids</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+	<div id="header">
+		<div class="section">
+			<div class="logo">
+				<a href="index.html">vids</a>
+			</div>
+			
+			<%= render :partial => "layouts/topmenu" %>
+		</div>
+		
+	</div>
+	<div id="body">
+		
+		<%= yield %>
+		
+	</div>
+	
+	<%= render :partial => "layouts/footer" %>
+	
+</body>
+</html>

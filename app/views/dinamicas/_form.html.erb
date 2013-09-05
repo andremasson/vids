@@ -1,0 +1,33 @@
+<%= form_for(@dinamica) do |f| %>
+  <% if @dinamica.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@dinamica.errors.count, "error") %> prohibited this dinamica from being saved:</h2>
+
+      <ul>
+      <% @dinamica.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nome %><br />
+    <%= f.text_field :nome %>
+  </div>
+  <div class="field">
+    <%= f.label :objetivos %><br />
+    <%= f.text_field :objetivos %>
+  </div>
+  <div class="field">
+    <%= f.label :participantes %><br />
+    <%= f.text_field :participantes %>
+  </div>
+  <div class="field">
+    <%= f.label :material %><br />
+    <%= f.text_area :material %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

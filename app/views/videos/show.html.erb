@@ -1,0 +1,28 @@
+<h1>Vídeo</h1>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Titulo:</b>
+  <%= @video.titulo %>
+</p>
+
+<p>
+  <b>Autor:</b>
+  <%= @video.autor %>
+</p>
+
+<p>
+  <b>Duracao:</b>
+  <%= @video.duracao %>
+</p>
+
+<p>
+  <b>Resumo:</b>
+  <%= @video.resumo %>
+</p>
+
+<%= render :partial => "dinamicas" %>
+
+<%= link_to 'Edit', edit_video_path(@video) %> |
+<%= link_to 'Back', videos_path %>

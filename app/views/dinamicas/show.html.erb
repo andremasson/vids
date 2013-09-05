@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nome:</b>
+  <%= @dinamica.nome %>
+</p>
+
+<p>
+  <b>Objetivos:</b>
+  <%= @dinamica.objetivos %>
+</p>
+
+<p>
+  <b>Participantes:</b>
+  <%= @dinamica.participantes %>
+</p>
+
+<p>
+  <b>Material:</b>
+  <%= @dinamica.material %>
+</p>
+
+
+<%= link_to 'Edit', edit_dinamica_path(@dinamica) %> |
+<%= link_to 'Back', dinamicas_path %>

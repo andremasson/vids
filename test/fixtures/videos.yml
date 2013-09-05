@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  titulo: MyString
+  autor: MyString
+  duracao: 9.99
+  resumo: MyText
+
+two:
+  titulo: MyString
+  autor: MyString
+  duracao: 9.99
+  resumo: MyText

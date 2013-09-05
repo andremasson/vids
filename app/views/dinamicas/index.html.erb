@@ -1,0 +1,29 @@
+<h1>Listing dinamicas</h1>
+
+<table>
+  <tr>
+  	<th>Nome</th>
+    <th>Objetivos</th>
+    <th>Participantes</th>
+    <th>Material</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @dinamicas.each do |dinamica| %>
+  <tr>
+  	<td><%= dinamica.nome %></td>
+    <td><%= dinamica.objetivos %></td>
+    <td><%= dinamica.participantes %></td>
+    <td><%= dinamica.material %></td>
+    <td><%= link_to 'Show', dinamica %></td>
+    <td><%= link_to 'Edit', edit_dinamica_path(dinamica) %></td>
+    <td><%= link_to 'Destroy', dinamica, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Dinamica', new_dinamica_path %>

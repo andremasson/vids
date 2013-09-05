@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  objetivos: MyString
+  participantes: 
+  material: MyText
+
+two:
+  objetivos: MyString
+  participantes: 
+  material: MyText

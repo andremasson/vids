@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//app/views/layouts/_topmenu.html.erb=UTF-8
+encoding//app/views/layouts/application.html.erb=UTF-8
+encoding//app/views/layouts/index.html.erb=UTF-8
+encoding//app/views/layouts/listing.html.erb=UTF-8
+encoding//app/views/videos/_dinamicas.html.erb=UTF-8
+encoding//app/views/videos/new.html.erb=UTF-8
+encoding//app/views/videos/show.html.erb=UTF-8
